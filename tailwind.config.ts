@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,8 +62,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				electricBlue: '#1EAEDB',
+				electricBlueLight: '#33C3F0',
+				electricBlueDark: '#0FA0CE',
+				charcoal: '#403E43',
+				charcoalDark: '#221F26',
 			},
+			fontFamily: {
+                sans: ['Montserrat', 'sans-serif'],
+                poppins: ['Poppins', 'sans-serif'],
+            },
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
@@ -89,7 +99,11 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+			},
+			backgroundImage: {
+                'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+                'tech-pattern': "url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgdmlld0JveD0iMCAwIDYwIDYwIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMyI+PHBhdGggZD0iTTM2IDM0djZoNnYtNmgtNnptMC0xaDZ2LTZoLTZ2NnptLTEgMXYtNmgtNnY2aDZ6bS03IDBoLTZ2Nmg2di02em0xIDd2LTZoLTd2MWg2djV6bS03LTJoMXY1aC03di01aDZ6bS02LTZoMXY1aC0xdi01em0xLTFoMXYxaC0xdi0xem0yIDFoMXYxaC0xdi0xem0xLTFoMXYxaC0xdi0xem0xIDFoMXYxaC0xdi0xem0xLTFoMXYxaC0xdi0xeiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+');",
+            }
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
