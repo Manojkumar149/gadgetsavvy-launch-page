@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Target, Smartphone, Search, Check, Twitter, Instagram, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -41,13 +40,11 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative pt-16 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          {/* Logo */}
+          {/* Logo Placeholder - removed actual logo */}
           <div className="flex justify-center mb-6">
-            <img 
-              src="/lovable-uploads/d588702e-20bf-447a-a320-ca252bc15141.png" 
-              alt="GadgetSavvy.in Logo" 
-              className="h-28 w-auto"
-            />
+            <div className="h-28 w-28 bg-electricBlue rounded-lg flex items-center justify-center text-white text-2xl font-bold">
+              GS
+            </div>
           </div>
           
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-charcoalDark mb-4 tracking-tight">
