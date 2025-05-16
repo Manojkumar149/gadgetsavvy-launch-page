@@ -40,13 +40,6 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative pt-16 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          {/* Logo Placeholder - removed actual logo */}
-          <div className="flex justify-center mb-6">
-            <div className="h-28 w-28 bg-electricBlue rounded-lg flex items-center justify-center text-white text-2xl font-bold">
-              GS
-            </div>
-          </div>
-          
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-charcoalDark mb-4 tracking-tight">
             GadgetSavvy<span className="text-electricBlue">.in</span>
           </h1>
